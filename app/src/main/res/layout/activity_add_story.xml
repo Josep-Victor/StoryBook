@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu"
+    tools:context=".AddStoryActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_judul_posting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingVertical="15dp">
+        <ImageButton
+            android:id="@+id/add_story_to_home"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/ic_back_setting"/>
+        <TextView
+            android:id="@+id/judul_posting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posting"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posting"
+            android:textSize="20dp"
+            android:textColor="@color/merah"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+        <EditText
+            android:id="@+id/desc"
+            android:hint="Tulis Caption dengan maks. 300 character"
+            android:inputType="textMultiLine|textCapSentences"
+            android:layout_marginTop="2dp"
+            android:maxLength="300"
+            android:minHeight="200dp"
+            android:padding="20dp"
+            android:gravity="top"
+            android:background="@color/white"
+            android:layout_below="@id/layout_judul_posting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>

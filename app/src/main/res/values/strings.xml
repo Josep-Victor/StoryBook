@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Story Book App</string>
+    <string name="username">Japetz</string>
+    <string name="new_story">Write Story</string>
+    <string name="template_username">Username</string>
+    <string name="template_isi">Isi</string>
+    <string name="template_timestamp">timestamp</string>
+    <string name="login_judul">Masuk</string>
+    <string name="hint_username_login">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="txt_daftar">Daftar Sekarang</string>
+    <string name="btn_masuk">Masuk Ke Storybook</string>
+    <string name="register_judul">Daftar</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+</resources>
